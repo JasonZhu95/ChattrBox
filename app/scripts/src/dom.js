@@ -42,10 +42,7 @@ export class ChatList {
       class: 'message-row'
     });
 
-    // console.log('logging this.username', this.username);
-    // console.log('logging this.messageData.user', messageData.user);
     if (this.username === messageData.user) {
-        // console.log('adding me');
         $messageRow.addClass('me');
     }
 
